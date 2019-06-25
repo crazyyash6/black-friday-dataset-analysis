@@ -1,1 +1,2 @@
-
+train_set <- read.csv("train.csv", stringsAsFactors = FALSE, header = TRUE, na.strings = c('NA',''))
+test_set<- read.csv("test.csv",  stringsAsFactors = FALSE, header = TRUE, na.strings = c('NA',''))
